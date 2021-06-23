@@ -21,9 +21,9 @@
     ?>
 
     <div class="d-flex p-4">
-        <form method="POST">
+        <form method="post">
             <div class="input-group mb-3">
-                <input type="number" class="form-control" name="number" aria-label="Number" placeholder="Number" required>
+                <input type="number" class="form-control" name="number" aria-label="Number" placeholder="Number" min="0" required>
                 <button class="btn btn-outline-secondary" type="submit">Check</button>
             </div>
             <?php if ($processed) : ?>

@@ -20,9 +20,9 @@ class Luhn
      */
     public function isValid()
     {
-        if (empty($this->number) || !is_numeric($this->number)) {
+        if (empty($this->number) || !is_numeric($this->number) || $this->number < 0) {
             // invalid input
-            $this->message = "You must input a number.";
+            $this->message = "You must input a valid number.";
             $this->valid = false;
         } else {
             // get length (number of digits)
