@@ -11,3 +11,7 @@ These instructions assume that you have a basic understanding / familiarity with
 ## How to run tests:
 
 - Run `vendor/bin/phpunit --testdox tests` from the root of this project.
+
+## Note:
+
+The user "jhanrath" being listed as a contributor of this repo was a technical error. Long story short, I was accidentally signed in to jhanrath's empty account from my secondary laptop when I pushed a readme commit this morning. jhanrath is a carpenter, and knows nothing of web or git.
