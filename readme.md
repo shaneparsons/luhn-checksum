@@ -4,7 +4,7 @@ These instructions assume that you have a basic understanding / familiarity with
 
 ## How to build / run:
 
-- Clone this repo to a PHP friendly location (e.g. localhost, docker, valet, homestead, mamp).
+- Clone this repo to a PHP (>=7.3) friendly location (e.g. localhost, docker, valet, homestead, htdocs).
 - Run `composer install` from the root of this project to install [PHPUnit](https://phpunit.de/).
 - Visit the url you have tied to the location (e.g. http://localhost, http://luhn-checksum.test).
 
